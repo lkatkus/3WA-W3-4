@@ -1,0 +1,161 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+
+/*BACKGROUND STYLING*/
+
+.bgColorRed{
+    background-color: red;
+}
+
+.bgColorGreen{
+    background-color: green;
+}
+
+.bgColorBlue{
+    background-color: blue;
+}
+
+.bgColorWhite{
+    background-color: white;
+}
+
+.bgColorFooter{
+    background-color: #482537;
+}
+
+.borderGrey{
+    border: 1px solid #dedede;
+}
+
+/*NAVBAR STYLING*/
+.navbar{
+    margin-bottom: unset;
+}
+
+/*DIV STYLING*/
+
+.container{
+    max-width: 1100px;
+    background-color: #f2f2f2;
+}
+
+.content{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/*PADDING STYLING*/
+
+.rowPadding{
+    padding: 15px 0 15px 0;
+}
+
+.padding0{
+    padding: 0;
+}
+
+/*NAV STYLING*/
+
+.navbar-nav li a{
+    padding: 15px 15px 15px 15px;
+    color: #a4243d;
+}
+
+/* adjusted line height for large devices to center nav items */
+
+@media (min-width: 768px) {
+    .navbar-nav li a{
+        padding: 0 15px 0 15px;
+        line-height: 78px;
+    }
+}
+
+.footerNav{
+    padding: 0;
+}
+
+.footerNav li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footerNav li a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+/*HR STYLING*/
+
+.hrFat {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 3px solid #f45d54;
+}
+
+.hrThin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #f45d54;
+}
+
+/*TEXT STYLING*/
+
+.text-caps{
+    text-transform: uppercase;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-orange{
+    color: #f87e55;
+}
+
+i{
+    color: #f87e55;
+}
+
+h2{
+    font-size: 2em;
+    color: #a4243d;
+}
+
+h3{
+    font-size: 1.5em;
+    color: #a4243d;
+}
+
+
+/*FLEXSLIDER STYLING*/
+
+.flexslider{
+    border: unset;
+    margin: 0 0 15px 0;
+}
+
+.flex-direction-nav a.flex-next,
+.flex-direction-nav a.flex-prev{
+    display:none;
+}
+
+.flex-control-paging li a.flex-active{
+    background: #a4243d;
+}
+
+.flex-control-paging li a{
+    background: #f87e55;
+}
+
+.float-vertical-align {
+  border: 1px solid red;
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
